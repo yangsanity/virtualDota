@@ -1,0 +1,257 @@
+.sidebar-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+  background-color: #222; }
+  .sidebar-menu > li {
+    position: relative;
+    margin: 0;
+    padding: 0; }
+    .sidebar-menu > li > a {
+      padding: 12px 5px 12px 20px;
+      display: block;
+      color: #fff; }
+      .sidebar-menu > li > a > .fa {
+        width: 30px; }
+    .sidebar-menu > li:hover > a, .sidebar-menu > li.active > a {
+      color: #fff;
+      background-color:rgba(255,255,255,0.1);
+       }
+    
+	
+	.sidebar-menu > li > .treeview-menu {
+      margin: 0 1px;
+      background: #fff; }
+    .sidebar-menu > li .label,
+    .sidebar-menu > li .badge {
+      margin-top: 3px;
+      margin-right: 5px; }
+  .sidebar-menu li.header {
+    padding: 10px 25px 10px 15px;
+    font-size: 12px;
+    color: #4b646f;
+    background: #1a2226; }
+  .sidebar-menu li > a > .fa-angle-right {
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin-right: 10px;
+    margin-top: 5px; }
+  .sidebar-menu li.active > a > .fa-angle-right {
+    transform: rotate(90deg); }
+  .sidebar-menu li.active > .treeview-menu {
+    display: block; }
+  .sidebar-menu a {
+    color: #fff;
+    text-decoration: none; }
+  .sidebar-menu .treeview-menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 5px; }
+    .sidebar-menu .treeview-menu .treeview-menu {
+      padding-left: 20px; }
+    .sidebar-menu .treeview-menu > li {
+      margin: 0; }
+      .sidebar-menu .treeview-menu > li > a {
+        padding: 5px 5px 5px 20px;
+        display: block;
+        font-size: 14px;
+        color: #000; }
+        .sidebar-menu .treeview-menu > li > a > .fa {
+          width: 20px; }
+        .sidebar-menu .treeview-menu > li > a > .fa-angle-right,
+        .sidebar-menu .treeview-menu > li > a > .fa-angle-down {
+          width: auto; }
+      .sidebar-menu .treeview-menu > li.active > a, .sidebar-menu .treeview-menu > li > a:hover {
+        color: #009ee3; }
+      
+	  
+	  /*============sidebar .widget==============*/
+	  
+	  
+	  .sidebar .widget .title{
+		  background-color: #111;/*鼠标停留状态栏*/
+          color: #fff;
+		  
+		  padding-left:10px;
+		  line-height:40px
+		  }
+		  
+		  
+		  /*============social button style================*/
+.social-button {
+    margin: 0;
+    padding: 0;
+    /*list-style: none;*/
+    text-align: center;
+	background-color:#222
+	
+}
+
+.social-button li {
+    display: inline-block;
+}
+
+.social-button li:nth-child(2) {
+    margin: 30px 30px;
+}
+
+.social-button li a {
+    border: 1px solid #fff;
+    border-radius: 100%;
+    color: #000;
+	background-color: #FFF;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+    
+    -webkit-transition: all 0.2s ease 0s;
+       -moz-transition: all 0.2s ease 0s;
+        -ms-transition: all 0.2s ease 0s;
+         -o-transition: all 0.2s ease 0s;
+            transition: all 0.2s ease 0s;
+}
+
+
+.social-button li.one a:hover {
+    color: #fff;
+    border: 1px solid #e6162d;
+	background-color: #e6162d;
+}
+
+.social-button li.two a:hover {
+    color: #fff;
+    border: 1px solid #0fcf19;
+	background-color: #0fcf19;
+}
+
+.social-button li.three a:hover {
+    color: #fff;
+    border: 1px solid #2aa3ef;
+	background-color: #2aa3ef;
+}
+
+#screenshot { position:absolute;background:#fff;z-index:100000;border: 1px solid #000}
+
+
+
+/*-----------------Material Design------------------*/			
+/*button{margin:0;padding:0;color:inherit;font-family:inherit;font-size:inherit;background:0 0;border:none;border-radius:none;box-shadow:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;outline:0;cursor:pointer}*,::after,::before{box-sizing:border-box}*/
+
+/*body{font-family:Roboto,sans-serif;font-size:16px;font-weight:300;line-height:1.6}*/
+/*.wrapper{z-index:5;-webkit-transition:-webkit-transform .5s;transition:transform .5s}
+.wrapper.mm-menu-open{-webkit-transform:translateX(300px);-ms-transform:translateX(300px);transform:translateX(300px)}*/
+/*.mm-menu-toggle{position:fixed;top:32px;right:12px;z-index:20;width:20px;height:18px;background:-webkit-linear-gradient(90deg,rgba(33,33,33,0),rgba(33,33,33,0) 7px,#FFF 7px,#FFF 11px,rgba(33,33,33,0) 11px,rgba(33,33,33,0) 18px);background:linear-gradient(0deg,rgba(33,33,33,0),rgba(33,33,33,0) 7px,#FFF 7px,#FFF 11px,rgba(33,33,33,0) 11px,rgba(33,33,33,0) 18px);font-size:0;text-indent:-9999px}*/
+
+.mm-menu-toggle::after,.mm-menu-toggle::before{display:block;position:absolute;left:0;width:100%;height:4px;background-color:#FFF;content:""}
+.mm-menu-toggle::before{top:0;-webkit-transform-origin:bottom left;-ms-transform-origin:bottom left;transform-origin:bottom left}
+.mm-menu-toggle::after{bottom:0;-webkit-transform-origin:top left;-ms-transform-origin:top left;transform-origin:top left}
+.mm-menu-toggle,.mm-menu-toggle::after,.mm-menu-toggle::before{-webkit-transition:all .5s;transition:all .5s}
+
+.mm-menu-toggle.active{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}
+.mm-menu-toggle.active::before{width:75%;-webkit-transform:translateY(7px) rotate(-45deg);-ms-transform:translateY(7px) rotate(-45deg);transform:translateY(7px) rotate(-45deg)}
+.mm-menu-toggle.active::after{width:75%;-webkit-transform:translateY(-7px) rotate(45deg);-ms-transform:translateY(-7px) rotate(45deg);transform:translateY(-7px) rotate(45deg)}
+.mm-menu{position:fixed;top:0;left:0;z-index:10;background-color:#FFF;width:100%;height:100%;overflow-y:auto;box-shadow:0;-webkit-transform:translateX(-100%);-ms-transform:translateX(-100%);transform:translateX(-100%);-webkit-transition:-webkit-transform .5s,box-shadow .5s;transition:transform .5s,box-shadow .5s}
+.mm-menu.active{box-shadow:0 2px 8px rgba(0,0,0,.2);-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0)}
+
+
+@media all and (min-width:300px){
+	.mm-menu{width:300px;-webkit-transform:translateX(-300px);-ms-transform:translateX(-300px);transform:translateX(-300px);background-color:#222}
+	}
+	.mm-menu__header{position:relative;width:100%;height:170px;background-image:url(../images/background1.jpg);background-color: #f43438 !important;}
+	
+	
+	.mm-menu__title{position:absolute;bottom:0px;left:12px;margin:0;padding:0;color:#fff;font-size:22px}
+	/*.mm-menu__items{list-style:none;margin:0;padding:0}
+	.mm-menu__item{display:block;width:100%;opacity:0;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}
+	.mm-menu__item.in-view{opacity:1;-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0)}
+	
+	
+	
+	.mm-menu__item.item-1{-webkit-transition:opacity .5s .1s,-webkit-transform .5s .1s;transition:opacity .5s .1s,transform .5s .1s}
+	.mm-menu__item.item-2{-webkit-transition:opacity .5s .2s,-webkit-transform .5s .2s;transition:opacity .5s .2s,transform .5s .2s}
+	.mm-menu__item.item-3{-webkit-transition:opacity .5s .3s,-webkit-transform .5s .3s;transition:opacity .5s .3s,transform .5s .3s}
+	.mm-menu__item.item-4{-webkit-transition:opacity .5s .4s,-webkit-transform .5s .4s;transition:opacity .5s .4s,transform .5s .4s}
+	.mm-menu__item.item-5{-webkit-transition:opacity .5s .5s,-webkit-transform .5s .5s;transition:opacity .5s .5s,transform .5s .5s}
+	.mm-menu__item.item-6{-webkit-transition:opacity .5s .6s,-webkit-transform .5s .6s;transition:opacity .5s .6s,transform .5s .6s}
+	.mm-menu__item.item-7{-webkit-transition:opacity .5s .7s,-webkit-transform .5s .7s;transition:opacity .5s .7s,transform .5s .7s}
+	.mm-menu__item.item-8{-webkit-transition:opacity .5s .8s,-webkit-transform .5s .8s;transition:opacity .5s .8s,transform .5s .8s}
+	.mm-menu__item.item-9{-webkit-transition:opacity .5s .9s,-webkit-transform .5s .9s;transition:opacity .5s .9s,transform .5s .9s}
+	.mm-menu__item.item-10{-webkit-transition:opacity .5s 1s,-webkit-transform .5s 1s;transition:opacity .5s 1s,transform .5s 1s}
+	.mm-menu__item.item-11{-webkit-transition:opacity .5s 1.1s,-webkit-transform .5s 1.1s;transition:opacity .5s 1.1s,transform .5s 1.1s}
+	.mm-menu__item.item-12{-webkit-transition:opacity .5s 1.2s,-webkit-transform .5s 1.2s;transition:opacity .5s 1.2s,transform .5s 1.2s}
+	.mm-menu__item.item-13{-webkit-transition:opacity .5s 1.3s,-webkit-transform .5s 1.3s;transition:opacity .5s 1.3s,transform .5s 1.3s}
+	.mm-menu__item.item-14{-webkit-transition:opacity .5s 1.4s,-webkit-transform .5s 1.4s;transition:opacity .5s 1.4s,transform .5s 1.4s}
+	.mm-menu__item.item-15{-webkit-transition:opacity .5s 1.5s,-webkit-transform .5s 1.5s;transition:opacity .5s 1.5s,transform .5s 1.5s}
+	.mm-menu__item.item-16{-webkit-transition:opacity .5s 1.6s,-webkit-transform .5s 1.6s;transition:opacity .5s 1.6s,transform .5s 1.6s}
+	.mm-menu__item.item-17{-webkit-transition:opacity .5s 1.7s,-webkit-transform .5s 1.7s;transition:opacity .5s 1.7s,transform .5s 1.7s}
+	.mm-menu__item.item-18{-webkit-transition:opacity .5s 1.8s,-webkit-transform .5s 1.8s;transition:opacity .5s 1.8s,transform .5s 1.8s}
+	.mm-menu__item.item-19{-webkit-transition:opacity .5s 1.9s,-webkit-transform .5s 1.9s;transition:opacity .5s 1.9s,transform .5s 1.9s}
+	.mm-menu__item.item-20{-webkit-transition:opacity .5s 2s,-webkit-transform .5s 2s;transition:opacity .5s 2s,transform .5s 2s}
+	*/
+	
+	
+	/*.mm-menu__link{display:block;position:relative;overflow:hidden;margin:4px 0;padding:12px;color:#000;font-size:16px;text-decoration:none;-webkit-transition:background .5s,color .5s;transition:background .5s,color .5s}
+	.mm-menu__link-text{position:relative;z-index:2}*/
+	
+	
+	/*-----------------点击波纹effect---------------*/
+	.mm-menu__link--touch-effect{display:block;position:absolute;z-index:1;width:0;height:0;border-radius:50%;background-color:rgba(255,255,255,.3);-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);-webkit-transform-origin:50% 50%;-ms-transform-origin:50% 50%;transform-origin:50% 50%}
+	.mm-menu__link--touch-effect.animating{-webkit-transform:scale(0.1);-ms-transform:scale(0.1);transform:scale(0.1);-webkit-transition:-webkit-transform .5s;transition:transform .5s}
+	
+/*-------------遮罩层特效--------*/
+.mm-menu-mask{display:block;position:fixed;top:0;left:0;z-index:100;width:100%;height:100%;background-color:rgba(0,0,0,.8);visibility:hidden;opacity:0;-webkit-transition:opacity .5s,visibility .5s;transition:opacity .5s,visibility .5s}
+	.mm-menu-mask.active{visibility:visible;opacity:0.8}
+	
+	/*!
+ *  Material Design Iconic Font 1.0.1 by Sergey Kupletsky (@zavoloklom) - http://zavoloklom.github.io/material-design-iconic-font/
+ *  License - https://github.com/zavoloklom/material-design-iconic-font/blob/gh-pages/License.md (Attribution-ShareAlike 4.0 International license)
+ */@font-face{font-family:'Material Design Iconic Font';src:url(../fonts/Material-Design-Iconic-Font.eot?v=1.0.1);src:url(../fonts/Material-Design-Iconic-Font.eot?#iefix&v=1.0.1) format("embedded-opentype"),url(../fonts/Material-Design-Iconic-Font.woff?v=1.0.1) format("woff"),url(../fonts/Material-Design-Iconic-Font.ttf?v=1.0.1) format("truetype"),url(../fonts/Material-Design-Iconic-Font.svg?v=1.0.1#Material-Design-Iconic-Font) format("svg");font-weight:400;font-style:normal}[class*=" md-"],[class^=md-]{display:inline-block;font:normal normal normal 14px/1 'Material Design Iconic Font';font-size:inherit;speak:none;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+ .md{line-height:inherit;vertical-align:bottom}
+ .md-lg{font-size:1.5em;line-height:.5em;vertical-align:-35%}
+ .md-2x{font-size:2em}
+ .md-3x{font-size:3em}
+ .md-4x{font-size:4em}
+ .md-5x{font-size:5em}
+ .md-border{padding:.2em .25em .15em;border:.08em solid grey;border-radius:.1em}
+ .md-border-circle{padding:.2em .25em .15em;border:.08em solid grey;border-radius:50%}[class*=" md-"]
+ .pull-left,[class^=md-]
+ .pull-left{float:left;margin-right:.3em}[class*=" md-"]
+ .pull-right,[class^=md-]
+ .pull-right{float:right;margin-left:.3em}
+ .md-spin{-webkit-animation:md-spin 1.5s infinite linear;animation:md-spin 1.5s infinite linear}
+ .md-spin-reverse{-webkit-animation:md-spin-reverse 1.5s infinite linear;animation:md-spin-reverse 1.5s infinite linear}
+ @-webkit-keyframes md-spin{
+	 0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}
+	 }
+@keyframes md-spin{
+	 0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}
+	 }
+@-webkit-keyframes md-spin-reverse{
+	 0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(-359deg);transform:rotate(-359deg)}
+	 }
+@keyframes md-spin-reverse{
+	 0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(-359deg);transform:rotate(-359deg)}
+	 }
+	 .md-rotate-90{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1);-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}
+	 .md-rotate-180{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}
+	 .md-rotate-270{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);-webkit-transform:rotate(270deg);-ms-transform:rotate(270deg);transform:rotate(270deg)}
+	 .md-flip-horizontal{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);-webkit-transform:scale(-1,1);-ms-transform:scale(-1,1);transform:scale(-1,1)}
+	 .md-flip-vertical{filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);-webkit-transform:scale(1,-1);-ms-transform:scale(1,-1);transform:scale(1,-1)}:root 
+	 .md-flip-horizontal,:root 
+	 .md-flip-vertical,:root 
+	 .md-rotate-180,:root 
+	 .md-rotate-270,:root 
+	 .md-rotate-90{-webkit-filter:none;filter:none}
+	 #fusionads{display:none;position:fixed;top:12px;right:12px;z-index:5;padding:12px;background:rgba(255,255,255,.95);font-size:12px;line-height:1.2;box-shadow:-2px 2px 4px rgba(0,0,0,.1)}
+	 #fusionads .fusion-wrap{display:block;margin:0 auto 10px;width:130px}
+	 #fusionads a.fusion-text{display:block;color:#727272;text-decoration:none}
+	 #fusionads a.fusion-img{display:block;margin-bottom:10px;width:130px;height:100px;background-color:#fff}
+	 #fusionads a.fusion-img img{display:block;margin:0 0 12px}
+	 #fusionads a.fusion-poweredby{color:#CDDC39;text-decoration:none}
+	 @media all and (min-width:600px){#fusionads{display:block}}
+	 

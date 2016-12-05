@@ -1,0 +1,117 @@
+/* ==============================================================
+
+Template name : Bootsnav - Multi Purpose Header
+Categorie : Bootstrap Menu in CSS
+Author : YANG KANG
+Version : v1.0.0
+Created : 02 Juni  2016
+Last update : 02 Juni  2016
+
+============================================================== */
+
+/*
+Color
+=========================== */
+nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:hover,
+.side .widget ul.link li a:hover,
+.side .widget ul.link li a:focus,
+.check-list li:before,
+ul.cart-list > li > h6 > a,
+.attr-nav > ul > li > a:hover,
+.attr-nav > ul > li > a:focus,
+nav.navbar-sidebar ul.nav li.dropdown.on > a,
+nav.navbar-sidebar .dropdown .megamenu-content .col-menu.on .title,
+nav.navbar-sidebar ul.nav li.dropdown ul.dropdown-menu li a:hover,
+nav.navbar ul.nav li.dropdown.on > a,
+nav.navbar.navbar-inverse ul.nav li.dropdown.on > a,
+nav.navbar-sidebar ul.nav li.dropdown.on ul.dropdown-menu li.dropdown.on > a,
+nav.navbar .dropdown .megamenu-content .col-menu.on .title,
+nav.navbar ul.nav > li > a:hover,
+nav.navbar ul.nav li.active > a,
+nav.navbar li.dropdown ul.dropdown-menu > li a:hover{
+    color: #009EE3;
+}
+
+nav.navbar.navbar-transparent ul.nav > li > a:hover,
+nav.navbar.no-background ul.nav > li > a:hover
+/*,nav.navbar ul.nav li.scroll.active > a*/{
+	color: #009ee3 !important;
+}
+
+
+
+@media(max-width:920px){
+    nav.navbar .dropdown .megamenu-content .col-menu ul > li > a:hover,
+    nav.navbar.navbar-dark .dropdown .megamenu-content .col-menu .title:hover{
+        color: #009EE3 !important;
+    }
+}
+
+/*
+Border
+=========================== */
+
+
+nav.navbar li.dropdown ul.dropdown-menu{
+    border-top-color: #fff !important;
+	
+}
+
+/*
+Background
+=========================== */
+ul.cart-list > li.total > .btn,
+.attr-nav > ul > li > a span.badge,
+nav.navbar .share ul > li > a:hover,
+nav.navbar .share ul > li > a:focus{
+    background-color: #009EE3;
+}
+
+
+
+
+/*==============三角形边框===============*/
+.test_triangle_border{
+    width:200px; 
+    margin:0 auto 20px;
+    position:relative;
+}
+.test_triangle_border a{
+    color:#333;
+    font-weight:bold; 
+    text-decoration:none;
+}
+.test_triangle_border .popup{
+    width:100px;
+    background:#fc0; 
+    padding:10px 20px; 
+    color:#333;  
+    border-radius:4px;
+    position:absolute; 
+    top:30px; 
+    left:30px;
+    border:1px solid #333;
+}
+.test_triangle_border .popup span{
+    display:block; 
+    width:0; 
+    height:0; 
+    border-width:0 10px 10px; 
+    border-style:solid; 
+    border-color:transparent transparent #333; 
+    position:absolute; 
+    top:-10px; 
+    left:50%;/* 三角形居中显示 */
+    margin-left:-10px;/* 三角形居中显示 */
+}
+.test_triangle_border .popup em{
+    display:block; 
+    width:0; 
+    height:0; 
+    border-width:0 10px 10px; 
+    border-style:solid; 
+    border-color:transparent transparent #fc0; 
+    position:absolute; 
+    top:1px; 
+    left:-10px;
+}
