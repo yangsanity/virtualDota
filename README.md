@@ -1,2 +1,2 @@
 # virtualDota
-virtualDota
+基于Bootstrap前端框架运用了很多漂亮的jQuery插件。全屏焦点图采用了Bootstrap轮播（Carousel）插件，非常灵活的响应式焦点图，简单大方。图片展示区采用了cbpGridGallery.js网格画廊插件，结合Owl Carousel旋转木马插件,很好的分类展示分类的图片。Blog部分采用了点击图片链接绑定弹出框插件-Fancybox和载入Blog详情页面，结合了美观性和功能性。
